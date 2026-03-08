@@ -1,0 +1,28 @@
+{
+    "name": "copuchat-cli",
+    "version": "1.0.0",
+    "description": "CLI para chatear con CopuChat (LatamGPT) desde la terminal",
+    "type": "module",
+    "main": "copuchat-cli.js",
+    "bin": {
+        "copuchat": "./copuchat-cli.js"
+    },
+    "scripts": {
+        "start": "node copuchat-cli.js",
+        "chat": "node copuchat-cli.js -i"
+    },
+    "keywords": [
+        "latamgpt",
+        "copuchat",
+        "chatbot",
+        "cli"
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "chalk": "^5.3.0",
+        "yargs": "^17.7.2"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    }
+}
